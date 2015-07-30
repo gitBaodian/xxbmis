@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;security.xml&apos; to &apos;sshdemo/src&apos;&#x0D;&#x0A;- Original project: &apos;mis&apos;&#x0D;&#x0A;- Destination element: &apos;sshdemo/src&apos;&#x0D;&#x0A;- Original element: &apos;security.xml&apos;" description="Copy file" destination="=sshdemo/src" element1="src/security.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1410406481190" units="0" version="1.0"/>
+</session>

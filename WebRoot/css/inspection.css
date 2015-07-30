@@ -1,0 +1,50 @@
+#insp{ width:98%; height:98%;}
+#insp ul{
+	margin:0;
+	padding:0;
+	border:1px solid #ccc; 
+	border-bottom:none;
+	height:99%;
+}
+#insp ul li{ 
+	height:30px;
+	line-height:30px;
+	float:left;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:16px;
+    list-style-type: none;
+}
+
+.insp_IsColor{ 
+	background:#FFFFEC 
+}
+
+.insp_writing{ 
+	font-family:Georgia, "Times New Roman", Times, serif;
+    font-size:20px; 
+    font-weight:bold;
+}
+
+.insp_width1_1{ width: 100%;border-bottom:1px solid #ccc;}
+
+.insp_width2_1{ width: 30%;border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width2_2{ width: 69.6%; text-align:center;border-bottom:1px solid #ccc;}
+
+.insp_width4_1{ width: 30%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width4_2{ width: 20%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width4_3{ width: 30%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width4_4{ width: 19.6%; text-align:center;border-bottom:1px solid #ccc;}
+
+.insp_width6_1{ width: 16.5%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width6_2{ width: 16.5%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width6_3{ width: 16.5%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width6_4{ width: 16.5%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width6_5{ width: 16.5%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width6_6{ width: 16.5%; text-align:center;border-bottom:1px solid #ccc;}
+
+.insp_width5_1{ width: 30%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width5_2{ width: 20%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width5_3{ width: 15%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width5_4{ width: 15%; border-right:1px solid #ccc;text-align:center;border-bottom:1px solid #ccc;}
+.insp_width5_5{ width: 19.6%; text-align:center;border-bottom:1px solid #ccc;}
+

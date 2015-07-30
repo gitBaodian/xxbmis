@@ -1,0 +1,15 @@
+
+kendeditor-min.js
+num147增加：
+var b=this,c=b.fullscreenMode;
+//初始化时自动调整高度（用于email_list_rd.js）
+b.options.beforeCreate&&b.options.beforeCreate.call(b);//只增加这一行
+if(b.isCreated)return b;
+
+filemanager.js
+在75行 参数名'&'更改为'&_'
+在77行 加上
+	if(data.message) {
+		alert(data.message);
+		return;
+	}

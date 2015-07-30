@@ -1,0 +1,23 @@
+复制cmdb的功能 
+
+服务端
+1.在hessian-servlet.xml添加监听链接
+2.业务层实现类CabinetManager更改为CabinetManagerImpl，
+	并添加实现：implements CabinetManager
+3.添加业务层接口CabinetManager
+4.action层的CabinetManagerImpl更改为CabinetManager
+5.model层Cabinet和CabinetPage实现序列化implements Serializable
+
+客户端
+1.在bean.xml添加远程调用
+2.复制服务端的业务层接口CabinetManager到相同位置
+3.复制服务端的model层Cabinet和CabinetPage到相同位置
+4.复制action层CabinetAction到本项目action层位置
+	需要更改CommonAction和StaticMethod的位置
+5.复制js和jsp页面到本项目页面位置
+	js有部分全局变量不一样
+	index_tabs.tabs
+	更改为：
+	index_data.tabObj.tabs
+	
+	
