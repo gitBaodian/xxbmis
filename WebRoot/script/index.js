@@ -305,7 +305,7 @@ function index_loadwork() {
 	if(index_data.user.id != "") {
 		index_addPanel('<div id="index_pgrid2" class="index_work"></div>', {
 			title: '个人工作',
-		    height: 170,
+		    height: 175,
 		    tools:[{
 		    	iconCls: 'icon-reload',
 				handler: function() {
@@ -484,7 +484,7 @@ function index_loadwrecords(reload, remote) {
 	if(reload) {
 		index_addPanel('<div id="index_pgrid" class="index_pgrid"></div>', {
 			title: '运行日志',
-			height: 169,
+			height: 192,
 			tools:[{
 				iconCls: 'icon-reload',
 				handler: function() {
@@ -532,7 +532,7 @@ function index_loadNotepad(reload, remote) {
 	if(reload) {
 		index_addPanel('<div id="index_pgrid6" class="index_pgrid"></div>', {
 			title: '每日记事',
-		    height: 169,
+		    height: 192,
 		    tools:[{
 		    	iconCls: 'icon-reload',
 				handler: function() {
@@ -580,7 +580,7 @@ function index_handover(reload, remote) {
 	if(reload) {
 		index_addPanel('<div id="index_pgrid4" class="index_pgrid"></div>', {
 			title: '交接记录',
-		    height: 147,
+		    height: 165,
 		    tools:[{
 		    	iconCls: 'icon-reload',
 				handler: function() {
@@ -629,7 +629,7 @@ function index_loadnews(reload, remote) {
 	if(reload) {
 		index_addPanel('<div id="index_pgrid3" class="index_pgrid"></div>', {
 			title: '交流平台',
-			height: 147,
+			height: 165,
 		    tools:[{
 		    	iconCls: 'icon-add',
 				handler: function() {
@@ -693,7 +693,7 @@ function index_calendar() {
 	}, 2);
 	index_addPanel('<div class="index_clda"></div>', {
 		title: '值班表',
-		height: 190,
+		height: 205,
 		content:
 			'<div id="index_duty" class="index_duty"></div>' +
 			'<div id="index_dtus" class="index_dtus"></div>'
