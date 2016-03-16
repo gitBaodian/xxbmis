@@ -1,0 +1,3 @@
+
+进入项目目录project后
+将eclipse目录里面的文件拷贝到project目录，然后再在eclipse上导入
